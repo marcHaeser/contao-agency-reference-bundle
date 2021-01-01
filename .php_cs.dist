@@ -1,0 +1,7 @@
+$header = <<<EOF
+This file is part of Contao Agency Reference Bundle.
+
+(c) CASC8
+
+@license LGPL-3.0-or-later
+EOF;
