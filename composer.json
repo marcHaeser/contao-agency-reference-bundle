@@ -1,7 +1,7 @@
 {
     "name": "marchaeser/contao-agency-reference-bundle",
     "type": "contao-bundle",
-    "description": "CASC8 Agency Reference Bundle",
+    "description": "Agency Reference Bundle",
     "homepage": "https://contao.org",
     "license": "LGPL-3.0-or-later",
     "authors": [
@@ -31,21 +31,21 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "CASC8\\ContaoAgencyReferenceBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "marchaeser\\ContaoAgencyReferenceBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "CASC8\\ContaoAgencyReferenceBundle\\": "src/"
+            "marchaeser\\ContaoAgencyReferenceBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CASC8\\ContaoAgencyReferenceBundle\\Tests\\": "tests/"
+            "marchaeser\\ContaoAgencyReferenceBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/CASC8\\ContaoAgencyReferenceBundle-bundle/issues",
-        "source": "https://github.com/CASC8\\ContaoAgencyReferenceBundle"
+        "issues": "https://github.com/marchaeser\\ContaoAgencyReferenceBundle-bundle/issues",
+        "source": "https://github.com/marchaeser\\ContaoAgencyReferenceBundle"
     },
     "scripts": {
         "cs-fixer": [

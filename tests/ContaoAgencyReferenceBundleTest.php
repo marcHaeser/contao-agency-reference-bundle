@@ -10,9 +10,9 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace CASC8\ContaoAgencyReferenceBundle\Tests;
+namespace marchaeser\ContaoAgencyReferenceBundle\Tests;
 
-use CASC8\ContaoAgencyReferenceBundle\ContaoAgencyReferenceBundle;
+use marchaeser\ContaoAgencyReferenceBundle\ContaoAgencyReferenceBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoAgencyReferenceBundleTest extends TestCase
@@ -21,6 +21,6 @@ class ContaoAgencyReferenceBundleTest extends TestCase
     {
         $bundle = new ContaoAgencyReferenceBundle();
 
-        $this->assertInstanceOf('CASC8\ContaoAgencyReferenceBundle\ContaoAgencyReferenceBundle', $bundle);
+        $this->assertInstanceOf('marchaeser\ContaoAgencyReferenceBundle\ContaoAgencyReferenceBundle', $bundle);
     }
 }
