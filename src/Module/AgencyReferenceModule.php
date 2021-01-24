@@ -1,6 +1,7 @@
 <?php
 
 namespace marchaeser\ContaoAgencyReferenceBundle\Module;
+use marchaeser\ContaoAgencyReferenceBundle\Library\MessageGenerator;
 
 class AgencyReferenceModule extends \Module
 {
@@ -36,6 +37,10 @@ class AgencyReferenceModule extends \Module
      */
     protected function compile()
     {
-        $this->Template->message = 'Hello World';
+        $messageGenerator = \Contao\System::getContainer()->get(MessageGenerator::class);
+
+        $message = $messageGenerator->sayHelloTo('World');
+
+        $this->Template->message = $message;
     }
 }
